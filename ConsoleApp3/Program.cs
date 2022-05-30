@@ -42,6 +42,8 @@ namespace ConsoleApp3
             Console.WriteLine(Math.Max(312,123));
             Console.WriteLine(Math.Min(312, 123)); 
             Console.WriteLine(Math.PI);
+
+            Product product = new Product();
         }
     }
 }
