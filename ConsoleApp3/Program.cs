@@ -99,6 +99,13 @@ namespace ConsoleApp3
             Console.WriteLine(myMath.Abs(52.12));
             Console.WriteLine(myMath.Abs(52L));
             Console.WriteLine(myMath.Abs(52f));
+
+            Product productx = new Product("감자", 20000);
+            Product producty = new Product("고구마", 30000);
+
+            Console.WriteLine(productx.id + " : " + productx.name);
+            Console.WriteLine(producty.id + " : " + producty.name);
+            Console.WriteLine(Product.counter);
         }
     }
 }
