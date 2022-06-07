@@ -95,6 +95,10 @@ namespace ConsoleApp3
             }
             Console.WriteLine(myMath.Abs(52));
 
+            Console.WriteLine(myMath.Abs(-52));
+            Console.WriteLine(myMath.Abs(52.12));
+            Console.WriteLine(myMath.Abs(52L));
+            Console.WriteLine(myMath.Abs(52f));
         }
     }
 }
